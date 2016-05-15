@@ -1,8 +1,6 @@
 # CacheClearRails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cache_clear_rails`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This is a rake task to clear Rails cashe. It is convenient to use with the Heroku Redis.
 
 ## Installation
 
@@ -22,7 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+rake cache:clear
+```
+
+Usage with the Heroku Redis:
+
+```ruby
+heroku run rake cache:clear
+```
 
 ## Development
 
@@ -32,5 +38,5 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/cache_clear_rails.
+Bug reports and pull requests are welcome on GitHub at https://github.com/yamamuteki/cache_clear_rails.
 
