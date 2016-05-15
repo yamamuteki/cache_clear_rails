@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "Clear Rails cache"
   spec.description   = "This is a rake task to clear Rails cache."
   spec.homepage      = "https://github.com/yamamuteki/cache_clear_rails"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
