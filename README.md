@@ -1,4 +1,4 @@
-# CacheClearRails [![Gem Version](https://badge.fury.io/rb/cache_clear_rails.svg)](https://badge.fury.io/rb/cache_clear_rails) [![Build Status](https://travis-ci.org/yamamuteki/cache_clear_rails.svg?branch=master)](https://travis-ci.org/yamamuteki/cache_clear_rails)
+# CacheClearRails [![Gem Version](https://badge.fury.io/rb/cache_clear_rails.svg)](https://badge.fury.io/rb/cache_clear_rails) [![Build Status](https://travis-ci.org/yamamuteki/cache_clear_rails.svg?branch=master)](https://travis-ci.org/yamamuteki/cache_clear_rails) [![Coverage Status](https://coveralls.io/repos/github/yamamuteki/cache_clear_rails/badge.svg?branch=master)](https://coveralls.io/github/yamamuteki/cache_clear_rails?branch=master)
 
 This is a rake task to clear Rails cashe. It is convenient to use with the Heroku Redis.
 
